@@ -7,29 +7,71 @@
      initial-scale=1.0">
     <title>Lomas Athletic Club</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </head>
 
-
+  
+  
   <body>
        <div>
-           <nav class="menu">
-                <img src="img/LomasAC-logo.png" alt="Logo" height="150px">
-               <ul>
-                   <li><a href="a"> Inicio</a></li>
-                   <li><a href="a"> Sobre nosotros</a></li>
-                   <li><a href="a"> Contacto</a></li>
-                </ul>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/LomasAC-logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+              </a>
+            </div>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sedes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Sobre Nosotros</a>
+                </li>
+              </ul>
            </nav>
-        </div>
+       </div>   
         <section id="main">
             <div align="center">
-                <h1>Campaña de socios 2022</h1>
-                <img src="img/Foto-Equipo.jpeg" 
-                     alt="Foto" 
-                     height="400px"
-                     width="800px">
-                    
+                <h1>Hacete Socio!</h1>
             </div>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/lomas-athletic1200.jpg" class="d-block w-100" alt="Foto">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Lomas-Athletic-1600.jpg" class="d-block w-100" alt="Foto">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Lomas_Golf_DiscoverGolf_96.jpg" class="d-block w-100" alt="Foto">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
             <div>
                 <h2>Ingresa tus datos</h2>
                 <form>
@@ -62,15 +104,29 @@
                     </select>
                 </form>
             </div>
+
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Bien hecho!</h4>
+                <p>Ya estara recibiendo el mail acerca de la informacion de como abonar la cuota.</p>
+                <hr>
+                <p class="mb-0">Tendra 10 dias para debitar la primera couta o sino sera dado de baja del sistema.</p>
+              </div>
+
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+
         </section>
-
-        <br>
-        <br>
-
-        <footer>
-            Listo. Por mail le llegaran los datos para acreditar el debito automatico
-        </footer>
-
     
   </body>
 </html>

@@ -1,23 +1,24 @@
+
 h1 {
     color: green;
-    font-size: 80px;
+    font-size: 300px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
+    size: 100px;
 }
+
 
 h2 {
     text-decoration: underline;
 }
 
-ul {
+.navbar-brand {
     height: auto;
     width: 1500px;
     padding: 20px;
     background-color: darkgreen;
     border: 10px;
     margin: 20px;
-    flex-direction: row;
-    display: block;
 }
 
 ul li {
@@ -32,3 +33,6 @@ form {
     padding: 20px;
 }
 
+nav {
+    text-align: center;
+}
