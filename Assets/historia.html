@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+     content="width=device-widht, 
+     initial-scale=1.0">
+    <title>Lomas Athletic Club</title>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+
+  <body>
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button> 
+        <a href="#" class="w3-bar-item w3-button">Inicio</a>
+        <a href="#" class="nav-link active" class="w3-bar-item w3-button">Historia</a>
+        <a href="#" class="w3-bar-item w3-button">Asociate</a>
+        <a href="#" class="w3-bar-item w3-button">Sedes</a>
+      </div>
+      
+      <div class="w3-main" style="margin-left:200px">
+      <div class="w3">
+        <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <div class="w3-container">
+          <h3>Lomas Athletic Club</h3>
+        </div>
+      </div>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/Lomas-Fundadores.png" class="d-block w-100" alt="Foto">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Los Fundadores</h5>
+              <p>El club se creó con el nombre de Lomas Academy Athletic Club, en la esquina de las calles Laprida y Necochea. Dos años más tarde se oficializó la denominación Lomas Athletic Club.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/Lomas-Campeones.jpg" class="d-block w-100" alt="Foto">
+            <div class="carousel-caption d-none d-md-block">
+              <h6>Primer equipo campeon</h6>
+              <h6>En el año 1893 Lomas se consagra como primer campeón del Futbol Argentino, repitiendo este logro en 1894, 1895, 1897 y 1898.</h6>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Lomas-Rugby.jpg" class="d-block w-100" alt="Foto">
+            <div class="carousel-caption d-none d-md-block">
+              <h6>Primer equipo de Rugby</h6>
+              <p>Lomas fue uno de los clubes fundadores del Rugby Argentino. Los otros 3 fueron Belgrano Athletic Club, Buenos Aires Football Club y Rosario Athletic Club.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </body>
