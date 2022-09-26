@@ -1,10 +1,8 @@
 
 h1 {
-    color: green;
-    font-size: 300px;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    size: 100px;
+    color: black;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 
@@ -12,10 +10,12 @@ h2 {
     text-decoration: underline;
 }
 
+
+
 .navbar-brand {
     height: auto;
     width: 1500px;
-    padding: 20px;
+    padding: 0px;
     background-color: darkgreen;
     border: 10px;
     margin: 20px;
@@ -35,4 +35,28 @@ form {
 
 nav {
     text-align: center;
+}
+
+.w3-container{
+    color: darkgreen;
+}
+
+h6{
+    color: white;
+}
+
+.accordion-body{
+    color: red;
+}
+
+.accordion-body1{
+    color: yellow;
+}
+
+.accordion-body2{
+    color: darkgreen;
+}
+
+.w3-panel{
+    font-size: 80px;
 }
